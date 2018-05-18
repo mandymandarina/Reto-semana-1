@@ -5,7 +5,13 @@ window.onload = function() {
         document.getElementById("entrar").innerHTML = myFunction + " Bienvenido<br>";
     }
     
-   
+   // respuesta pregunta 1 si
+   document.getElementById("pregunta1").addEventListener("click", myFuntion);
+
+   function myFuntion() {
+       document.getElementById("pregunta1")
+   }
+
     var wantToPlay = prompt("¿quieres jugar? s/n");
     if (wantToPlay.toLowerCase() == "s") {
         var answer1 = prompt("¿han egresado hombres en Laboratoria? s/n");
